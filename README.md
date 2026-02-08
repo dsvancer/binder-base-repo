@@ -7,7 +7,6 @@
   style="width:auto;height:auto;"
 > 
 
-
 # About the Workshop
 **Abstract**: 
 
@@ -25,3 +24,12 @@ Access the material at the following URL
   href="https://mybinder.org/v2/gh/dsvancer/binder-base-repo/main?urlpath=lab/tree/welcome.ipynb" target="_blank">
   https://mybinder.org/v2/gh/dsvancer/binder-base-repo/main?urlpath=lab/tree/welcome.ipynb
 </a>
+
+### Creating a local virtual environment (MacOS)
+Download python 3.13 is needed.
+
+In the terminal, navigate to the main folder `binder-base-repo` and then run the following:
+- python3.13 -m venv .venv
+- source .venv/bin/activate
+- pip install -r binder/requirements.txt
+
